@@ -1,0 +1,12 @@
+HYG v2 / hygxyz.csv
+Author: David Nash, Astronexus
+Source: https://github.com/astronexus/HYG-Database/blob/main/hyg/v2/hygxyz.csv.gz
+License: Creative Commons Attribution-ShareAlike 2.5
+https://creativecommons.org/licenses/by-sa/2.5/
+
+The original compressed catalogue is preserved without changes.
+Derived filtered catalogues and geometric data in this project are attributed to
+David Nash / Astronexus and shared under the same CC BY-SA 2.5 license.
+Transformations: distance filtering, spectral first-letter filtering, conversion
+from parsecs to light years, coincident-position deduplication, TetGen meshes,
+cube clipping, SQLite/CSV/VTK exports and visualizations.

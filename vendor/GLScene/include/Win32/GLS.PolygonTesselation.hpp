@@ -1,0 +1,52 @@
+﻿// CodeGear C++Builder
+// Copyright (c) 1995, 2026 by Embarcadero Technologies, Inc.
+// All rights reserved
+
+// (DO NOT EDIT: machine generated header) 'GLS.PolygonTesselation.pas' rev: 37.00 (Windows)
+
+#ifndef GLS_PolygonTesselationHPP
+#define GLS_PolygonTesselationHPP
+
+#pragma delphiheader begin
+#pragma option push
+#if defined(__BORLANDC__) && !defined(__clang__)
+#pragma option -w-      // All warnings off
+#pragma option -Vx      // Zero-length empty class member 
+#endif
+#pragma pack(push,8)
+#include <System.hpp>
+#include <SysInit.hpp>
+#include <Winapi.OpenGL.hpp>
+#include <System.SysUtils.hpp>
+#include <Stage.VectorTypes.hpp>
+#include <Stage.VectorGeometry.hpp>
+#include <Stage.PersistentClasses.hpp>
+#include <Stage.OpenGLTokens.hpp>
+#include <Stage.VectorLists.hpp>
+#include <Stage.OpenGLAdapter.hpp>
+#include <GLS.VectorFileObjects.hpp>
+
+//-- user supplied -----------------------------------------------------------
+
+namespace Gls
+{
+namespace Polygontesselation
+{
+//-- forward type declarations -----------------------------------------------
+//-- type declarations -------------------------------------------------------
+//-- var, const, procedure ---------------------------------------------------
+extern DELPHI_PACKAGE void __fastcall DoTesselate(Stage::Vectorlists::TGSAffineVectorList* Vertexes, Gls::Vectorfileobjects::TGLBaseMesh* Mesh, Stage::Vectorgeometry::PAffineVector normal = (Stage::Vectorgeometry::PAffineVector)(0x0), bool invertNormals = false);
+}	/* namespace Polygontesselation */
+}	/* namespace Gls */
+#if !defined(DELPHIHEADER_NO_IMPLICIT_NAMESPACE_USE) && !defined(NO_USING_NAMESPACE_GLS_POLYGONTESSELATION)
+using namespace Gls::Polygontesselation;
+#endif
+#if !defined(DELPHIHEADER_NO_IMPLICIT_NAMESPACE_USE) && !defined(NO_USING_NAMESPACE_GLS)
+using namespace Gls;
+#endif
+#pragma pack(pop)
+#pragma option pop
+
+#pragma delphiheader end.
+//-- end unit ----------------------------------------------------------------
+#endif	// GLS_PolygonTesselationHPP

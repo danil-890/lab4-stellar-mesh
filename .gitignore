@@ -1,0 +1,28 @@
+# Generated application files
+/build/
+/bin/Win32/
+/bin/StarMesh.exe
+/bin/*.bpl
+/bin/BORLNDMM.DLL
+/bin/CC32C370MT.DLL
+/bin/_tetgenDLL.dll
+*.tds
+*.obj
+*.pch
+*.local
+*.identcache
+__pycache__/
+*.pyc
+*.log
+# Generated catalogues and geometry
+/data/*.sqlite
+/results/*/*
+!/results/*/sections.svg
+# LaTeX intermediates
+*.aux
+*.out
+*.synctex.gz
+*.xdv
+*.toc
+.DS_Store
+Thumbs.db

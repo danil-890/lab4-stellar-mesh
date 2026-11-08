@@ -1,0 +1,72 @@
+\documentclass[14pt,a4paper]{extarticle}
+
+% Шрифты и русский язык
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setmonofont{JetBrains Mono}
+\usepackage[russian]{babel}
+\usepackage{titlesec}
+
+% Заголовки разделов
+\titleformat{\section}
+  {\normalfont\fontsize{14pt}{17pt}\selectfont\bfseries}
+  {\thesection}{1em}{}
+
+% Заголовки подразделов
+\titleformat{\subsection}
+  {\normalfont\fontsize{13pt}{16pt}\selectfont\bfseries}
+  {\thesubsection}{1em}{}
+
+% Отступы до и после заголовков
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{10pt}{5pt}
+
+% Поля страницы
+\usepackage[left=25mm,right=20mm,top=20mm,bottom=20mm]{geometry}
+
+% Таблицы, изображения и ссылки
+\usepackage{longtable,array,graphicx,hyperref}
+\hypersetup{hidelinks}
+
+% Абзацы и таблицы
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\renewcommand{\arraystretch}{1.12}
+
+% Подсветка синтаксиса
+\usepackage{xcolor}
+\usepackage{listings}
+
+% Цвета светлой темы CLion
+\definecolor{codeBlue}{HTML}{0033B3}
+\definecolor{codeGreen}{HTML}{067D17}
+\definecolor{codeGray}{HTML}{808080}
+\definecolor{codeText}{HTML}{202124}
+\definecolor{codeBorder}{HTML}{E0E0E0}
+
+% Стиль листинга
+\lstdefinestyle{clion}{
+    backgroundcolor=\color{white},
+    basicstyle=\ttfamily\fontsize{10.5pt}{13pt}\selectfont\color{codeText},
+    keywordstyle=\color{codeBlue},
+    stringstyle=\color{codeGreen},
+    commentstyle=\color{codeGray}\itshape,
+    identifierstyle=\color{codeText},
+    rulecolor=\color{codeBorder},
+    breaklines=true,
+    breakatwhitespace=false,
+    keepspaces=true,
+    showstringspaces=false,
+    columns=fullflexible,
+    tabsize=4
+}
+
+\lstset{style=clion}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{caption}
+\captionsetup{font=small}
+
+\newcommand{\code}[1]{{\ttfamily\fontsize{10.5pt}{13pt}\selectfont #1}}
+\setlength{\emergencystretch}{1em}
+\input{source/report_body.tex}

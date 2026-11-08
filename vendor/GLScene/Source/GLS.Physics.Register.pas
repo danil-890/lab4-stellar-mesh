@@ -1,0 +1,28 @@
+(*****************************************************************************
+                          GLScene Graphics Engine
+******************************************************************************)
+unit GLS.Physics.Register;
+(*
+  DesignTime registration code for the Physics Managers
+*)
+interface
+
+uses
+  System.Classes,
+  GLS.ODEManager,
+  GLS.NGDManager,
+  GLS.Phys.Manager;
+
+procedure Register;
+
+implementation //============================================================
+
+procedure Register;
+begin
+  RegisterClasses([TGLODEManager, TGLODEJointList, TGLODEJoints, TGLODEElements,
+    TGLNGDManager, TGLNGDDynamic, TGLNGDStatic, TGLPhysManager]);
+  RegisterComponents('GLScene Physics Managers', [TGLODEManager, TGLODEJointList,
+                    TGLNGDManager, TGLPhysManager]);
+end;
+
+end.
