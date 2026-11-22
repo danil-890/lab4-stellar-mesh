@@ -1,0 +1,237 @@
+{
+  "source_count": 119617,
+  "selected_count": 42748,
+  "classes": {
+    "O": {
+      "records": 7,
+      "points": 7,
+      "duplicates": 0,
+      "tetrahedra": 7,
+      "dt_edges": 18,
+      "vd_vertices": 7,
+      "vd_edges": 19,
+      "rays": 10,
+      "clipped_rays": 6,
+      "clipped_edges": 68,
+      "boundary_edges": 53,
+      "caps": 24,
+      "cap_counts": [
+        5,
+        5,
+        3,
+        3,
+        4,
+        4
+      ],
+      "face_areas": [
+        1000000.0,
+        999999.9999999999,
+        1000000.0,
+        1000000.0,
+        1000000.0,
+        1000000.0000000001
+      ],
+      "volume": 999999999.9999999,
+      "max_halfspace_violation": 1.1368683772161603e-13,
+      "seconds": 0.1256169000407681
+    },
+    "B": {
+      "records": 702,
+      "points": 702,
+      "duplicates": 0,
+      "tetrahedra": 4207,
+      "dt_edges": 5004,
+      "vd_vertices": 4207,
+      "vd_edges": 8510,
+      "rays": 192,
+      "clipped_rays": 46,
+      "clipped_edges": 8792,
+      "boundary_edges": 697,
+      "caps": 255,
+      "cap_counts": [
+        35,
+        27,
+        50,
+        51,
+        52,
+        40
+      ],
+      "face_areas": [
+        1000000.0000000002,
+        1000000.0,
+        1000000.0000000001,
+        999999.9999999998,
+        999999.9999999999,
+        1000000.0000000002
+      ],
+      "volume": 1000000000.0,
+      "max_halfspace_violation": 2.2737367544323206e-13,
+      "seconds": 1.608945699990727
+    },
+    "A": {
+      "records": 4845,
+      "points": 4845,
+      "duplicates": 0,
+      "tetrahedra": 31574,
+      "dt_edges": 36674,
+      "vd_vertices": 31574,
+      "vd_edges": 63404,
+      "rays": 512,
+      "clipped_rays": 90,
+      "clipped_edges": 63872,
+      "boundary_edges": 2161,
+      "caps": 757,
+      "cap_counts": [
+        104,
+        104,
+        135,
+        161,
+        124,
+        129
+      ],
+      "face_areas": [
+        1000000.0,
+        999999.9999999999,
+        1000000.0000000001,
+        999999.9999999998,
+        1000000.0,
+        999999.9999999997
+      ],
+      "volume": 1000000000.0,
+      "max_halfspace_violation": 1.9895196601282805e-13,
+      "seconds": 11.489880599954631
+    },
+    "F": {
+      "records": 14292,
+      "points": 14291,
+      "duplicates": 1,
+      "tetrahedra": 95000,
+      "dt_edges": 109638,
+      "vd_vertices": 95000,
+      "vd_edges": 190348,
+      "rays": 696,
+      "clipped_rays": 151,
+      "clipped_edges": 190956,
+      "boundary_edges": 2760,
+      "caps": 964,
+      "cap_counts": [
+        166,
+        152,
+        147,
+        154,
+        193,
+        152
+      ],
+      "face_areas": [
+        999999.9999999997,
+        1000000.0000000003,
+        999999.9999999998,
+        999999.9999999997,
+        999999.9999999998,
+        999999.9999999999
+      ],
+      "volume": 1000000000.0,
+      "max_halfspace_violation": 9.983125437429408e-13,
+      "seconds": 32.06031509995228
+    },
+    "G": {
+      "records": 11942,
+      "points": 11941,
+      "duplicates": 1,
+      "tetrahedra": 79351,
+      "dt_edges": 91536,
+      "vd_vertices": 79351,
+      "vd_edges": 158947,
+      "rays": 490,
+      "clipped_rays": 99,
+      "clipped_edges": 159438,
+      "boundary_edges": 2015,
+      "caps": 706,
+      "cap_counts": [
+        125,
+        123,
+        116,
+        101,
+        122,
+        119
+      ],
+      "face_areas": [
+        1000000.0,
+        1000000.0000000001,
+        999999.9999999998,
+        1000000.0,
+        1000000.0,
+        1000000.0
+      ],
+      "volume": 1000000000.0,
+      "max_halfspace_violation": 2.7000623958883807e-13,
+      "seconds": 31.141059899993706
+    },
+    "K": {
+      "records": 6720,
+      "points": 6718,
+      "duplicates": 2,
+      "tetrahedra": 44275,
+      "dt_edges": 51234,
+      "vd_vertices": 44275,
+      "vd_edges": 88792,
+      "rays": 484,
+      "clipped_rays": 100,
+      "clipped_edges": 89346,
+      "boundary_edges": 1870,
+      "caps": 658,
+      "cap_counts": [
+        113,
+        116,
+        108,
+        106,
+        109,
+        106
+      ],
+      "face_areas": [
+        1000000.0,
+        1000000.0,
+        999999.9999999997,
+        999999.9999999999,
+        999999.9999999998,
+        999999.9999999998
+      ],
+      "volume": 1000000000.0,
+      "max_halfspace_violation": 2.5579538487363607e-13,
+      "seconds": 17.322973000002094
+    },
+    "M": {
+      "records": 2084,
+      "points": 2074,
+      "duplicates": 10,
+      "tetrahedra": 13554,
+      "dt_edges": 15682,
+      "vd_vertices": 13554,
+      "vd_edges": 27163,
+      "rays": 110,
+      "clipped_rays": 42,
+      "clipped_edges": 27354,
+      "boundary_edges": 369,
+      "caps": 140,
+      "cap_counts": [
+        22,
+        26,
+        25,
+        21,
+        23,
+        23
+      ],
+      "face_areas": [
+        1000000.0,
+        999999.9999999999,
+        999999.9999999999,
+        999999.9999999999,
+        999999.9999999999,
+        1000000.0000000001
+      ],
+      "volume": 1000000000.0,
+      "max_halfspace_violation": 1.0746958878371515e-13,
+      "seconds": 5.219853900023736
+    }
+  }
+}
